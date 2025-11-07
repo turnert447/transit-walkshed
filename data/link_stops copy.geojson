@@ -1,0 +1,398 @@
+{
+  "type": "FeatureCollection",
+  "name":"stations",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lynnwood City Center",
+        "id": "lw",
+        "daily_boardings": 4500,
+        "opened": 2024
+      },
+      "geometry": {
+        "coordinates": [
+          -122.29479234681213,
+          47.81556501485122
+        ],
+        "type": "Point"
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mountlake Terrace",
+        "id": "mt",
+        "daily_boardings": 1500,
+        "opened": 2024
+      },
+      "geometry": {
+        "coordinates": [
+          -122.31475144725826,
+          47.7850276818659
+        ],
+        "type": "Point"
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shoreline North/185th",
+        "id": "sl_n",
+        "daily_boardings": 1200,
+        "opened": 2024
+      },
+      "geometry": {
+        "coordinates": [
+          -122.32287536158151,
+          47.76403976738922
+        ],
+        "type": "Point"
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shoreline South/148th",
+        "id": "sl_s",
+        "daily_boardings": 1350,
+        "opened": 2024
+      },
+      "geometry": {
+        "coordinates": [
+          -122.32526791602456,
+          47.7360724381289
+        ],
+        "type": "Point"
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Northgate",
+        "id": "ng",
+        "daily_boardings": 3150,
+        "opened": 2021
+      },
+      "geometry": {
+        "coordinates": [
+          -122.32823093271247,
+          47.70304976932209
+        ],
+        "type": "Point"
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roosevelt",
+        "id": "rv",
+        "daily_boardings": 2800,
+        "opened": 2021
+      },
+      "geometry": {
+        "coordinates": [
+          -122.31593009583324,
+          47.67661717534301
+        ],
+        "type": "Point"
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "U-District",
+        "id": "ud",
+        "daily_boardings": 3500,
+        "opened": 2021
+      },
+      "geometry": {
+        "coordinates": [
+          -122.31406654865305,
+          47.660510841483585
+        ],
+        "type": "Point"
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "University of Washington",
+        "id": "uw",
+        "daily_boardings": 6500,
+        "opened": 2016
+      },
+      "geometry": {
+        "coordinates": [
+          -122.30374852861416,
+          47.649835606230766
+        ],
+        "type": "Point"
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Capitol Hill",
+        "id": "ch",
+        "daily_boardings": 9580,
+        "opened": 2016
+      },
+      "geometry": {
+        "coordinates": [
+          -122.32021159029341,
+          47.61914620607709
+        ],
+        "type": "Point"
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Westlake",
+        "id": "wl",
+        "daily_boardings": 11900,
+        "opened": 2009
+      },
+      "geometry": {
+        "coordinates": [
+          -122.33616903432178,
+          47.61174347830138
+        ],
+        "type": "Point"
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Symphony",
+        "id": "sym",
+        "daily_boardings": 8500,
+        "opened": 2009
+      },
+      "geometry": {
+        "coordinates": [
+          -122.33591117535549,
+          47.60771797252653
+        ],
+        "type": "Point"
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pioneer Square",
+        "id": "ps",
+        "daily_boardings": 5200,
+        "opened": 2009
+      },
+      "geometry": {
+        "coordinates": [
+          -122.33132182311039,
+          47.602717747673864
+        ],
+        "type": "Point"
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "International District/Chinatown",
+        "id": "id",
+        "daily_boardings": 6800,
+        "opened": 2009
+      },
+      "geometry": {
+        "coordinates": [
+          -122.32796014275803,
+          47.59831362841743
+        ],
+        "type": "Point"
+      },
+      "id": 14
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stadium",
+        "id": "sd",
+        "daily_boardings": 2500,
+        "opened": 2009
+      },
+      "geometry": {
+        "coordinates": [
+          -122.32714199495587,
+          47.59110027907619
+        ],
+        "type": "Point"
+      },
+      "id": 15
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SODO",
+        "id": "sodo",
+        "daily_boardings": 1800,
+        "opened": 2009
+      },
+      "geometry": {
+        "coordinates": [
+          -122.3274033175371,
+          47.58126278603618
+        ],
+        "type": "Point"
+      },
+      "id": 16
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beacon Hill",
+        "id": "bh",
+        "daily_boardings": 2100,
+        "opened": 2009
+      },
+      "geometry": {
+        "coordinates": [
+          -122.31170725365669,
+          47.57924767447835
+        ],
+        "type": "Point"
+      },
+      "id": 17
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mount Baker",
+        "id": "mb",
+        "daily_boardings": 2400,
+        "opened": 2009
+      },
+      "geometry": {
+        "coordinates": [
+          -122.2977528981672,
+          47.57664969299523
+        ],
+        "type": "Point"
+      },
+      "id": 18
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Columbia City",
+        "id": "cc",
+        "daily_boardings": 2200,
+        "opened": 2009
+      },
+      "geometry": {
+        "coordinates": [
+          -122.29260841223052,
+          47.559774506032596
+        ],
+        "type": "Point"
+      },
+      "id": 19
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Othello",
+        "id": "oth",
+        "daily_boardings": 3100,
+        "opened": 2009
+      },
+      "geometry": {
+        "coordinates": [
+          -122.28158541397568,
+          47.537983068914656
+        ],
+        "type": "Point"
+      },
+      "id": 20
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rainier Beach",
+        "id": "rb",
+        "daily_boardings": 1900,
+        "opened": 2009
+      },
+      "geometry": {
+        "coordinates": [
+          -122.27938026074196,
+          47.52243342951837
+        ],
+        "type": "Point"
+      },
+      "id": 21
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tukwila International Blvd",
+        "id": "tib",
+        "daily_boardings": 2600,
+        "opened": 2009
+      },
+      "geometry": {
+        "coordinates": [
+          -122.28774808605792,
+          47.4639226929809
+        ],
+        "type": "Point"
+      },
+      "id": 22
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SeaTac/Airport",
+        "id": "sta",
+        "daily_boardings": 10450,
+        "opened": 2009
+      },
+      "geometry": {
+        "coordinates": [
+          -122.29692516343044,
+          47.44522874529687
+        ],
+        "type": "Point"
+      },
+      "id": 23
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Angle Lake",
+        "id": "al",
+        "daily_boardings": 2850,
+        "opened": 2016
+      },
+      "geometry": {
+        "coordinates": [
+          -122.29779995893368,
+          47.42235094527774
+        ],
+        "type": "Point"
+      },
+      "id": 24
+    }
+  ]
+}
