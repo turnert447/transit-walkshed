@@ -3,74 +3,7 @@
   "name":"stations",
   "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Lynnwood City Center",
-        "id": "lw",
-        "daily_boardings": 4500,
-        "opened": 2024
-      },
-      "geometry": {
-        "coordinates": [
-          -122.29479234681213,
-          47.81556501485122
-        ],
-        "type": "Point"
-      },
-      "id": 2
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Mountlake Terrace",
-        "id": "mt",
-        "daily_boardings": 1500,
-        "opened": 2024
-      },
-      "geometry": {
-        "coordinates": [
-          -122.31475144725826,
-          47.7850276818659
-        ],
-        "type": "Point"
-      },
-      "id": 3
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Shoreline North/185th",
-        "id": "sl_n",
-        "daily_boardings": 1200,
-        "opened": 2024
-      },
-      "geometry": {
-        "coordinates": [
-          -122.32287536158151,
-          47.76403976738922
-        ],
-        "type": "Point"
-      },
-      "id": 4
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Shoreline South/148th",
-        "id": "sl_s",
-        "daily_boardings": 1350,
-        "opened": 2024
-      },
-      "geometry": {
-        "coordinates": [
-          -122.32526791602456,
-          47.7360724381289
-        ],
-        "type": "Point"
-      },
-      "id": 5
-    },
+    
     {
       "type": "Feature",
       "properties": {
@@ -342,57 +275,6 @@
         "type": "Point"
       },
       "id": 21
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Tukwila International Blvd",
-        "id": "tib",
-        "daily_boardings": 2600,
-        "opened": 2009
-      },
-      "geometry": {
-        "coordinates": [
-          -122.28774808605792,
-          47.4639226929809
-        ],
-        "type": "Point"
-      },
-      "id": 22
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "SeaTac/Airport",
-        "id": "sta",
-        "daily_boardings": 10450,
-        "opened": 2009
-      },
-      "geometry": {
-        "coordinates": [
-          -122.29692516343044,
-          47.44522874529687
-        ],
-        "type": "Point"
-      },
-      "id": 23
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Angle Lake",
-        "id": "al",
-        "daily_boardings": 2850,
-        "opened": 2016
-      },
-      "geometry": {
-        "coordinates": [
-          -122.29779995893368,
-          47.42235094527774
-        ],
-        "type": "Point"
-      },
-      "id": 24
     }
   ]
 }
