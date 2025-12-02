@@ -1,0 +1,48 @@
+/* ===== HERO SECTION ===== */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #1e3a8a, #1e40af);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* ===== DASHBOARD CARDS ===== */
+.dashboard {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    transition: 0.25s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+.icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #1d4ed8;
+}
