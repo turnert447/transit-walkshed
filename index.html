@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seattle Transit Walkshed Analysis</title>
+    <link href = "../css/index.css" rel="stylesheet" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/6.5.0/turf.min.js"></script>
+</head>
+<body>
+<div id="navbar">
+    <div class = "navbar-item" onclick="location.href='home.html';">
+        <p>Home</p>
+    </div>
+    <div class = "navbar-item" onclick="location.href='index.html';">
+        <p>Walkshed Analysis</p>
+    </div>
+    <div class = "navbar-item" onclick="location.href='population.html';">
+        <p>Population Analysis</p>
+    </div>
+    <div class = "navbar-item" onclick="location.href='citations.html';">
+        <p>Citations</p>
+    </div>
+</div>
+<div id="map"></div>
+<div id="loading">Loading transit & census data...</div>
+<div id="processing">⏳ Recalculating...</div>
+
+<div id="controls">
+    <h3>🚇 Transit Walksheds</h3>
+
+    <h4>Walkshed Distance</h4>
+    <label><input type="radio" name="buffer" value="1320" checked> 0.25 mi (5 min walk)</label>
+    <label><input type="radio" name="buffer" value="2640"> 0.5 mi (10 min walk)</label>
+    <label><input type="radio" name="buffer" value="3960"> 0.75 mi (15 min walk)</label>
+
+    <h4>Population Density</h4>
+    <div class="color-scale">
+        <span style="background:#ffffcc"></span>
+        <span style="background:#c7e9b4"></span>
+        <span style="background:#7fcdbb"></span>
+        <span style="background:#41b6c4"></span>
+        <span style="background:#1d91c0"></span>
+        <span style="background:#225ea8"></span>
+        <span style="background:#0c2c84"></span>
+    </div>
+    <div class="scale-labels">
+        <span>Low</span>
+        <span>High</span>
+    </div>
+
+    <h4>Transit Lines</h4>
+    <label><input type="checkbox" id="show-link" checked>
+        <span class="legend-color" style="background:#1565c0"></span>Link Light Rail
+    </label>
+    <label><input type="checkbox" id="show-rr" checked>
+        <span class="legend-color" style="background:#c62828"></span>RapidRide Bus
+    </label>
+
+    <label><input type="checkbox" id="show-stops" checked> Show Stop Points</label>
+
+    <div id="stats">
+        <h4 style="margin-top:0">Walkshed Statistics</h4>
+        <div id="no-selection">Select at least one transit line</div>
+        <div id="stats-content">
+            <div>Total Population: <span class="stat-value" id="total-pop">--</span></div>
+            <div>Area: <span class="stat-value" id="total-area">--</span> mi²</div>
+        </div>
+    </div>
+</div>
+<script src="../js/index.js"></script>
+</body>
+</html>
